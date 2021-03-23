@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39778" started-at="2021-03-21T17:07:58Z" finished-at="2021-03-21T17:08:37Z">
+    <groups>
+    </groups>
+    <test name="my hub spot test chrome" duration-ms="39778" started-at="2021-03-21T17:07:58Z" finished-at="2021-03-21T17:08:37Z">
+      <class name="com.oops.concepts.LoginTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="setUpTest" is-config="true" duration-ms="20995" started-at="2021-03-21T17:07:58Z" finished-at="2021-03-21T17:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="verifyLoginPageTitle" duration-ms="42" started-at="2021-03-21T17:08:19Z" finished-at="2021-03-21T17:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="tearDown" is-config="true" duration-ms="2946" started-at="2021-03-21T17:08:19Z" finished-at="2021-03-21T17:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="setUpTest" is-config="true" duration-ms="12006" started-at="2021-03-21T17:08:22Z" finished-at="2021-03-21T17:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="FAIL" signature="doLoginTest()[pri:2, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="doLoginTest" duration-ms="1446" started-at="2021-03-21T17:08:34Z" finished-at="2021-03-21T17:08:35Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.oops.concepts.BasePage.getPageHeader(BasePage.java:23)
+at com.oops.concepts.HomePage.getHomePageHeader(HomePage.java:21)
+at com.oops.concepts.LoginTest.doLoginTest(LoginTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oops.concepts.LoginTest@2a70a3d8]" name="tearDown" is-config="true" duration-ms="2258" started-at="2021-03-21T17:08:35Z" finished-at="2021-03-21T17:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oops.concepts.LoginTest -->
+    </test> <!-- my hub spot test chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
